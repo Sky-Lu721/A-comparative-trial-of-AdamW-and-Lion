@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "If you use this experiment, please cite this repository."
+title: "A comparative trial of AdamW and Lion"
+type: software
+authors:
+  - family-names: Lu
+    given-names: Sky
+repository-code: "https://github.com/Sky-Lu721/A-comparative-trial-of-AdamW-and-Lion"
+abstract: >-
+  A reproducible CIFAR-10 and ResNet-18 comparison of AdamW and Lion,
+  with equal-budget validation tuning and measured performance,
+  convergence, optimizer-state memory, GPU allocation, and throughput.

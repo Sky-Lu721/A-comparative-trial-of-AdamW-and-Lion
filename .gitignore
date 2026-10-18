@@ -1,0 +1,39 @@
+# Local Python environments and caches
+.venv*/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+*.egg-info/
+build/
+dist/
+
+# Downloaded data, training outputs, and model tensors
+/data/
+/runs/
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+
+# Machine-specific installation, presentation, and temporary artifacts
+/.install_tmp/
+/.pip_cache/
+/presentation/
+/tests/.test_tmp_*/
+*.tmp
+*.log
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Local secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
